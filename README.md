@@ -8,5 +8,5 @@ SoftUni JS Back-End Course Workshop
  - [x] Add Workshop Resources
  - [x] Setup Handlebars `npm i express-handlebars`
  - [x] Setup static files
- - [ ] Render Home page
+ - [x] Render Home page
  - [ ] Config debugging
