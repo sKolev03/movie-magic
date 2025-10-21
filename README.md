@@ -11,3 +11,5 @@ SoftUni JS Back-End Course Workshop
  - [x] Render Home page
  - [x] Config debugging
  - [x] Add Layout
+ - [x] Render About Page
+ - [ ] 
