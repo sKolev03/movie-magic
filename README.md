@@ -16,7 +16,7 @@ SoftUni JS Back-End Course Workshop
 ---
 ### Architecture
  - [x] Add Home Controller
- - [ ] Add Movie Data Layer
+ - [x] Add Movie Data Layer
  - [ ] Add Movie Service 
  - [ ] Render Movies On Home Page
  - [ ] Show No Movies Screen
