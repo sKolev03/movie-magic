@@ -25,7 +25,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Add Movie Controller
  - [x] Show Create Movie Page
  - [x] Add Routes
- - [ ] Read Body Data
+ - [x] Read Body Data
  - [ ] Create Movie
    - [ ] Add Action
    - [ ] Service

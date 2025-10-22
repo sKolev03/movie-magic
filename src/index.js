@@ -15,6 +15,9 @@ app.set('views', 'src/views');
 //Setup middlewares
 app.use(express.static('src/public'));
 
+//Parse URL-encoded bodies
+app.use(express.urlencoded());
+
 //Routes
 app.use(routes);
 
