@@ -27,7 +27,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Add Routes
  - [x] Read Body Data
  - [ ] Create Movie
-   - [ ] Add Action
+   - [x] Add Action
    - [ ] Service
    - [ ] Add Model Method For Creating Movie
 

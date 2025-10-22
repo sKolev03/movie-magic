@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import movieSrevice from '../services/movieSrevice.js';
 
 const movieController = Router();
 
@@ -7,8 +8,10 @@ movieController.get('/create', (req, res) => {
 });
 
 movieController.post('/create', (req, res) => {
-    console.log(req.body);
-    
+    const movieData = req.body;
+
+    movieSrevice.create(movieData);
+
     res.end();
 });
 
