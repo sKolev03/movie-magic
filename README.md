@@ -30,6 +30,6 @@ SoftUni JS Back-End Course Workshop
    - [x] Add Action
    - [x] Service
    - [x] Add Model Method For Creating Movie
- - [ ] Redirect after creation 
+ - [x] Redirect after creation 
 
  - [ ] Add 404 Page
