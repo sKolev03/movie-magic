@@ -35,7 +35,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Add unique id for each created movie
 ---
 ### Details
- - [ ] Add navigation button for detail page
+ - [x] Add navigation button for detail page
  - [ ] Add route with param for details page
  - [ ] GetOne movie from service
  - [ ] Find movie by id from model
