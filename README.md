@@ -36,7 +36,7 @@ SoftUni JS Back-End Course Workshop
 ---
 ### Details
  - [x] Add navigation button for detail page
- - [ ] Add route with param for details page
+ - [x] Add route with param for details page
  - [ ] GetOne movie from service
  - [ ] Find movie by id from model
  - [ ] Render details page with dynamic data 
