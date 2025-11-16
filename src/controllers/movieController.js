@@ -10,7 +10,7 @@ movieController.get('/create', (req, res) => {
 movieController.post('/create', (req, res) => {
     const movieData = req.body;
 
-    movieSrevice.create(movieData);
+    const movie = movieSrevice.create(movieData);
 
     res.redirect('/');
 });
