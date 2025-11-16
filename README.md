@@ -25,12 +25,16 @@ SoftUni JS Back-End Course Workshop
  - [x] Add Movie Controller
  - [x] Show Create Movie Page
  - [x] Add Routes
+ - [ ] Add 404 Page
  - [x] Read Body Data
  - [x] Create Movie
    - [x] Add Action
    - [x] Service
    - [x] Add Model Method For Creating Movie
  - [x] Redirect after creation 
- - [ ] Add unique id for each created movie
-
- - [ ] Add 404 Page
+ - [x] Add unique id for each created movie
+---
+### Details
+### Search
+### Bonuses
+ - [ ] File Presistance
