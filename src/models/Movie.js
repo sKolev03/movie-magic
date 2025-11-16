@@ -2,7 +2,7 @@ import { v4 as uuid} from 'uuid';
 
 const movies = [
     {
-        id: '81313c94-08e0-40bf-85bc-1e7cdeebbef9',
+        _id: '81313c94-08e0-40bf-85bc-1e7cdeebbef9',
         title: 'Avengers: Endgame',
         category: ',movie',
         genre: 'Superhero',
