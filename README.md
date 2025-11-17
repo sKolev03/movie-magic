@@ -42,9 +42,9 @@ SoftUni JS Back-End Course Workshop
  - [x] Render details page with dynamic data 
 ---
 ### Search
- - [ ] Show static search page
- - [ ] Render All Movies
- - [ ] Modify search form
+ - [x] Show static search page
+ - [x] Render All Movies
+ - [x] Modify search form
  - [ ] Filter movies
  - [ ] Remember search query
 ---
