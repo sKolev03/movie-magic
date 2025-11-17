@@ -21,7 +21,7 @@ movieController.get('/:movieId/details', (req, res) => {
 
     console.log(movie);
 
-    res.end();
+    res.render('details', { movie });
 });
 
 export default movieController;
