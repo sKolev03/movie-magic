@@ -25,7 +25,9 @@ movieController.get('/:movieId/details', (req, res) => {
 });
 
 movieController.get('/search', (req, res) => {
-    const movies = movieSrevice.getAll();
+    const filter = req.query;
+
+    const movies = movieSrevice.getAll(filter);
 
     res.render('search', { movies });
 });
