@@ -1,7 +1,7 @@
 # movie-magic
 SoftUni JS Back-End Course Workshop
 
-## Development Steps
+## Workshop 1 - Express and Tmaplating
 
 ### Setup
  - [x] Initialize Project
@@ -55,3 +55,29 @@ SoftUni JS Back-End Course Workshop
  - [x] Dynamic page title
  - [x] Rating (temp solution)
  - [x] File Presistance
+
+
+## Workshop 2 - MongoDB Database
+
+### Prerequisites
+ - [x] Install MongoDB Community Server
+ - [x] Install Compass GUI
+ - [ ] Install MongoDB CLI (Optional)
+
+
+
+---
+### Setup Database
+ - [x] Install Mongoose `npm i mongoose`
+ - [ ] Connect to DB 
+
+---
+### Refactor Movies to use mongoose
+ - [ ] Add movie model
+
+
+ - [ ] Add new resources
+
+
+### Bonuses
+ - [ ] Env variables
