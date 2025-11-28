@@ -5,7 +5,7 @@ import movieSrevice from '../services/movieSrevice.js';
 const homeController = Router();
 
 homeController.get('/', async (req, res) => {
-    const movies = await movieSrevice.getAll();
+    const movies = await movieSrevice.getAll(req.query);
 
     res.render('home', { movies });
 });
