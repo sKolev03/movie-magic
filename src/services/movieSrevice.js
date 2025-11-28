@@ -1,3 +1,4 @@
+import { Types } from 'mongoose';
 import Movie from '../models/Movie.js';
 
 export default {
@@ -5,6 +6,8 @@ export default {
         const result = await Movie.find(filter);      
         // const result = await Movie.find(filter).lean();
         // const resultObj = result.map(m => m.toObject());
+
+        // result.forEach(movie => console.log(movie._id instanceof Types.ObjectId));
 
         return result;
     },
@@ -16,8 +19,10 @@ export default {
     create(movieData) {
         movieData.rating = Number(movieData.rating);
 
-        const movie = new Movie(movieData);
+        // const movie = new Movie(movieData);
 
-        return movie.save();
+        // return movie.save();
+
+        return Movie.create(movieData);
     }
 }

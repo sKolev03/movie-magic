@@ -37,6 +37,16 @@ export default class Movie {
         return result;
     }
 
+    static async create(data) {
+        movies.push(data);
+
+        const dbSerialized = JSON.stringify(db, null, 2);
+
+        await fs.writeFile('./src/db.json', dbSerialized);
+        
+        return this;
+    }
+
     static findOne(filter = {}) { // --- връща обект
         let result = movies[0];
 
@@ -48,7 +58,7 @@ export default class Movie {
     }
 
     get id() {
-        return this._id;
+        return this._id; // this._id.toString();
     }
     
     async save() {
