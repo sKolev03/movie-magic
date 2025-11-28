@@ -73,9 +73,10 @@ SoftUni JS Back-End Course Workshop
 
 ---
 ### Refactor Movies to use mongoose
- - [ ] Add movie model
-   - [ ] Create movie schema
-   - [ ] Create movie model
+ - [x] Add movie model
+   - [x] Create movie schema
+   - [x] Create movie model
+ - [ ] Refactor movie service
 
 
  - [ ] Add new resources

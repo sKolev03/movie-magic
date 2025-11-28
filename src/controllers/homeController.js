@@ -3,8 +3,8 @@ import movieSrevice from '../services/movieSrevice.js';
 
 const homeController = Router();
 
-homeController.get('/', (req, res) => {
-    const movies = movieSrevice.getAll();
+homeController.get('/', async (req, res) => {
+    const movies = await movieSrevice.getAll();
 
     res.render('home', { movies });
 });
