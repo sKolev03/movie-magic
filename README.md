@@ -76,7 +76,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Add movie model
    - [x] Create movie schema
    - [x] Create movie model
- - [ ] Refactor movie service
+ - [x] Import file movies to database
 
 
  - [ ] Add new resources
