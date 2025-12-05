@@ -13,6 +13,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Config Debugging
  - [x] Add Layout
  - [x] Render About Page
+
 ---
 ### Architecture And Dynamic Rendering
  - [x] Add Home Controller
@@ -20,6 +21,7 @@ SoftUni JS Back-End Course Workshop
  - [x] Add Movie Service 
  - [x] Render Movies On Home Page
  - [x] Show No Movies Screen
+
 ---
 ### Create Movie
  - [x] Add Movie Controller
@@ -33,6 +35,7 @@ SoftUni JS Back-End Course Workshop
    - [x] Add Model Method For Creating Movie
  - [x] Redirect after creation 
  - [x] Add unique id for each created movie
+
 ---
 ### Details
  - [x] Add navigation button for detail page
@@ -40,6 +43,7 @@ SoftUni JS Back-End Course Workshop
  - [x] GetOne movie from service
  - [x] Find movie by id from model
  - [x] Render details page with dynamic data 
+
 ---
 ### Search
  - [x] Show static search page
@@ -50,6 +54,7 @@ SoftUni JS Back-End Course Workshop
    - [x] by genre
    - [x] by title
  - [x] Remember search query
+
 ---
 ### Bonuses
  - [x] Dynamic page title
@@ -63,8 +68,6 @@ SoftUni JS Back-End Course Workshop
  - [x] Install MongoDB Community Server
  - [x] Install Compass GUI
  - [ ] Install MongoDB CLI (Optional)
-
-
 
 ---
 ### Setup Database
@@ -90,20 +93,24 @@ SoftUni JS Back-End Course Workshop
  - [x] Create Cast Page
  - [x] Add Cast model
  - [x] Create Cast Service
- - [ ] Create Cast Functionality
----
-### Attach Cast to Movie
+ - [x] Create Cast Functionality
 
 ---
-### Show Cast on Details
+### Attach Cast to Movie(relations)
+ - [x] Add attach cast button
+ - [ ] Add attach cast page
+ - [ ] Add relation between cast and movie
+ - [ ] Attach cast functionality
+
+---
+### Show Cast on Details(population)
 
 
 
 
- - [ ] Add new resources
-
-
+---
 ### Bonuses
  - [ ] Env variables
  - [ ] Name in movie
  - [ ] Back refference from vscode
+ - [ ] Add movie views to a folder

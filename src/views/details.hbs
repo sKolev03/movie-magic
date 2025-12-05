@@ -20,6 +20,13 @@
 
                 <p class="disc">Description: {{movie.description}}</p>
                 <p class="card-category">Category: {{movie.category}}</p>
+
+                <a href="/movies/{{movie.id}}/attach" class="details">Attach</a>
+
+                <!--TODO Attach in Movie Controller /movies/movieId/attach
+                    TODO Attach in Cast Controller /casts/castId/attach
+                    TODO Attach in new controller (MovieCastController) <3
+                    -->
             </div>
         </div>
         <div class="card_right">
