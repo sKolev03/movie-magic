@@ -27,8 +27,13 @@ export default {
 
     getOne(movieId) {
         // return Movie.findOne({_id: movieId});
+        // return Movie.findById(movieId).populate('casts'); // query population 
         return Movie.findById(movieId);
     },
+
+    getOneDetailed(movieId) {
+        return this.getOne(movieId).populate('casts');
+    },   
 
     create(movieData) {
         movieData.rating = Number(movieData.rating);
