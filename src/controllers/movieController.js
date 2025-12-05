@@ -19,11 +19,12 @@ movieController.post('/create', async (req, res) => {
 movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
     const movie = await movieSrevice.getOne(movieId);
+    const movieCasts = await castService.getAll({ includes: movie.casts });
 
     // TODO prepare view data(temp solution)
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
 
-    res.render('details', { movie, rating: ratingViewData });
+    res.render('details', { movie, rating: ratingViewData, casts: movieCasts });
 });
 
 movieController.get('/search', async (req, res) => {
