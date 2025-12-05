@@ -18,7 +18,7 @@ const castSchema = new Schema({
     imageUrl: {
         type: String,
         required: true,
-    },
+    }
 });
 
 const Cast = model('Cast', castSchema);
