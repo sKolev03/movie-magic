@@ -113,7 +113,7 @@ SoftUni JS Back-End Course Workshop
 
 ---
 ### Bonuses
- - [ ] Filter casts if they are already attached
+ - [x] Filter casts if they are already attached
  - [ ] Env variables
  - [ ] Name in movie
  - [ ] Back refference from vscode

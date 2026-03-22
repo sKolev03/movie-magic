@@ -21,7 +21,7 @@ movieController.get('/:movieId/details', async (req, res) => {
     const movie = await movieSrevice.getOneDetailed(movieId);
     // const movieCasts = await castService.getAll({ includes: movie.casts });
 
-    // TODO prepare view data(temp solution)
+    // TODO prepare view data (temp solution)
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
 
     res.render('details', { movie, rating: ratingViewData });
@@ -39,7 +39,7 @@ movieController.get('/:movieId/attach', async (req, res) => {
     const movieId = req.params.movieId;
 
     const movie = await movieSrevice.getOne(movieId);
-    const casts = await castService.getAll();
+    const casts = await castService.getAll({ excludes: movie.casts });
 
     res.render('casts/attach', { movie, casts });
 });
